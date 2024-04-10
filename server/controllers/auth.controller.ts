@@ -17,6 +17,5 @@ export const loginHandler = async (req: Request, res: Response) => {
 };
 
 export const profileHandler = async (req: Request, res: Response) => {
-    return res.json({ profile: req.payload });
-  };
-  
+  return res.json({ profile: req.payload });
+};

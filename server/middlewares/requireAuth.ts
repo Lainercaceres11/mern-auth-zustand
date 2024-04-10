@@ -23,7 +23,7 @@ export const requireAuth = (
       return res.status(401).json({ message: "No autorizado" });
     }
 
-    req.payload = payload
+    req.payload = payload;
     console.log(payload);
     next();
   });
